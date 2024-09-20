@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        a{
+    color: red;
+    text-decoration: none;
+}
+body{
+    background-image: url(rolexlogin.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    
+}
+h1,h5{
+    color: white;
+}
+button {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(7, 76, 38);
+    background-color: rgb(253, 255, 254); /* Button color */
+}
+ul{
+    color: red;
+    font-size: small;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <h1>LOGIN</h1>
+        <h5>Don't have an account?<a href="SIGNUP.html">Signup now</a></h5>
+        <form action="index.html">
+            <label>Username</label><br>
+            <input type="text"  required placeholder="enter your username"><br>
+            <label>Password</label><br>
+            <input type="password" required pattern="[a-zA-z0-9]{8}" placeholder="enter your password">
+            <ul>
+                <li>Password must be at least 8 characters long and contain only alphabets and numbers.</li>
+            </ul>
+            <button value="login">SUBMIT</button>
+        </form><br>
+        
+        
+    </center>
+</body>
+</html>

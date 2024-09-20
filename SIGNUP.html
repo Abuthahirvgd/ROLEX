@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <style>
+        a{
+    color: red;
+    text-decoration: none;
+}
+h1{
+    color: darkgreen;
+}
+body{
+    background-image: url(signup.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    
+}
+button {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(7, 76, 38);
+    background-color: rgb(253, 255, 254); /* Button color */
+}
+ul{
+    color: red;
+    font-size: small;
+}
+    </style>
+</head>
+<body>
+    <center>
+        <h1>SIGNUP</h1>
+        <h5>Already have an account?<a href="login.html">Login now</a></h5>
+        <form action="login.html">
+            <label>Username</label><br>
+            <input type="text"  required placeholder="enter your username"><br>
+            <label>Password</label><br>
+            <input type="password" required pattern="[a-zA-z0-9]{8}" placeholder="enter your password"><br>
+            <label>Confirm Password</label><br>
+            <input type="password" required pattern="[a-zA-z0-9]{8}" placeholder="Confirm your password"><br>
+            <label>Email</label><br>
+            <input type="email"  required placeholder="enter your email"><br>
+            <label>Phone No</label><br>
+            <input type="number" value="number" required placeholder="enter your Phone No."><br>
+            <label>Date of Birth</label><br>
+            <input type="date" placeholder="enter your DOB" value="dob" required>
+            <br><label>Gender</label><br>
+            <label>male</label>
+            <input type="radio" value="male">
+            <label>female</label>
+            <input type="radio" value="female"><br>
+            <label>country</label><br>
+            <select name="country">
+                <option value="india">india</option>
+                <option value="pakisthan">pakisthan</option>
+                <option value="japan">japan</option>
+                <option value="korea">korea</option>
+                <option value="usa">usa</option>
+                <option value="england">england</option>
+                <option value="germany">germany</option>
+                <option value="poland">poland</option>
+            </select><br><br>
+            <button value="login">SUBMIT</button>
+        </form>
+        <ul>
+            <li>Password must be at least 8 characters long and contain only alphabets and numbers.</li>
+        </ul>
+    </center>
+</body>
+</html>
