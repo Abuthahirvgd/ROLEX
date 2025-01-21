@@ -9,3 +9,9 @@ This is a modern and elegant website designed to showcase Rolex watches. The web
 - **About Us**: Learn more about the heritage and legacy of Rolex.  
 - **Contact Us**: A user-friendly contact form for inquiries and customer support.  
 - **Responsive Design**: Optimized for both desktop and mobile devices.
+
+## Technologies Used  
+- **HTML5**: Structuring the content and layout of the website.  
+- **CSS3**: Styling the pages with modern design principles.  
+- **Bootstrap**: For a responsive and mobile-friendly layout.  
+- **JavaScript**: Adding interactive elements to enhance the user experience.
