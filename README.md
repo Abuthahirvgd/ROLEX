@@ -14,4 +14,4 @@ This is a modern and elegant website designed to showcase Rolex watches. The web
 - **HTML5**: Structuring the content and layout of the website.  
 - **CSS3**: Styling the pages with modern design principles.  
 - **Bootstrap**: For a responsive and mobile-friendly layout.  
-- **JavaScript**: Adding interactive elements to enhance the user experience.
+- **JavaScript**: Adding interactive elements to enhance the user's experience.
