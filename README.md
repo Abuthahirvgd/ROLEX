@@ -15,3 +15,8 @@ This is a modern and elegant website designed to showcase Rolex watches. The web
 - **CSS3**: Styling the pages with modern design principles.  
 - **Bootstrap**: For a responsive and mobile-friendly layout.  
 - **JavaScript**: Adding interactive elements to enhance the users experience.
+
+## Getting Started  
+  Clone this repository:  
+   ```bash  
+   git clone https://github.com/Abuthahirvgd/rolex-watch-website.git  
