@@ -19,4 +19,4 @@ This is a modern and elegant website designed to showcase Rolex watches. The web
 ## Getting Started  
   Clone this repository:  
    ```bash  
-   git clone https://github.com/Abuthahirvgd/rolex-watch-website.git  
+   git clone https://github.com/Abuthahirvgd/ROLEX
